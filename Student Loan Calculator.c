@@ -45,7 +45,7 @@ void userInput() // gathers data for calculation
     printf("Year of entry: (yyyy): ");
     scanf(" %d", &yentry);
 
-    ygraduation = yentry + years + 1;
+    ygraduation = yentry + years;
 
     if ((placement == 'Y') || (placement == 'y')) //placement year
     {
